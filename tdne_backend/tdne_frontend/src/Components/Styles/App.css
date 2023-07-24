@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 600px;
+  width: 800px;
+  border: solid;
+  border-radius: 20px;
+
+  background-color: rgb(219, 225, 230);
+}
+
+
+@media screen and (max-width: 800px) {
+  .App {
+    height: 450px;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    height: 337px;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .App {
+    height: 500px;
+    width: 3400px;
+  }
+}

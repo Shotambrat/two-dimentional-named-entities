@@ -1,0 +1,213 @@
+table {
+    width: 700px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: solid black 2px;
+}
+
+#table-container {
+    max-height: 300px;
+    width: 100%;
+    margin: 20px 50px;
+}
+
+.overflowY {
+    overflow-y: scroll;
+}
+
+.overflowX {
+    overflow-X: scroll;
+}
+
+input {
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.coordinateDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.coordinateInp {
+    width: 35px;
+}
+
+.coordinateInp:invalid {
+    border: 2px solid red;
+}
+
+.coordinateInp[maxlength] {
+    max-length: 2;
+}
+
+
+.but-container {
+    display: flex;
+    justify-content: end;
+}
+
+.modal-button{
+    height: 120px;
+    width: 200px;
+}
+
+.button {
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 10px 10px;
+    height: 50px;
+    width: 100px;
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 7px 4px rgba(34, 60, 80, 0.2);
+}
+
+.button1 {
+    background-color: rgb(48, 159, 255);
+    color: #fff;
+    font-size: 1.05em;
+    font-weight: bold;
+}
+
+.delete-button {
+    width: 100%;
+    background-color: rgb(255, 41, 41);
+    color: #fff;
+    font-size: 1.05em;
+    font-weight: bold;
+}
+
+.change-button {
+    width: 100%;
+    background-color: rgb(49, 255, 125);
+    color: #fff;
+    font-size: 1.05em;
+    font-weight: bold;
+}
+
+.button3 {
+    background-color: rgb(48, 255, 79);
+    color: #fff;
+    font-size: 1.05em;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 800px) {
+    table {
+        width: 520px;
+    }
+
+    #table-container {
+        max-height: 300px;
+        width: 100%;
+        margin: 20px 40px;
+    }
+
+    .button {
+        border-radius: 15px;
+        margin: 0;
+        cursor: pointer;
+    }
+    .button1 {
+        background-color: rgb(48, 159, 255);
+        color: #fff;
+        font-size: 0.95em;
+        font-weight: bold;
+        transform: scale(0.8);
+    }
+    
+    .button2 {
+        background-color: rgb(255, 41, 41);
+        color: #fff;
+        font-size: 0.95em;
+        font-weight: bold;
+        transform: scale(0.8);
+    }
+    
+    .button3 {
+        background-color: rgb(48, 255, 79);
+        color: #fff;
+        font-size: 0.95em;
+        font-weight: bold;
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        width: 400px;
+    }
+
+    #table-container {
+        max-height: 200px;
+        width: 100%;
+        margin: 20px 25px;
+    }
+
+    .button {
+        border-radius: 10px;
+    }
+    .button1 {
+        background-color: rgb(48, 159, 255);
+        color: #fff;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+    
+    .button2 {
+        background-color: rgb(255, 41, 41);
+        color: #fff;
+        font-size: 0.9em;
+        font-weight: bold;
+        }
+        
+    .button3 {
+        background-color: rgb(48, 255, 79);
+        color: #fff;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    table {
+        width: 300px;
+    }
+
+    #table-container {
+        height: 400px;
+        width: 300px;
+        margin: 20px 25px;
+    }
+
+    .button {
+        border-radius: 10px;
+    }
+    .button1 {
+        background-color: rgb(48, 159, 255);
+        color: #fff;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+    
+    .button2 {
+        background-color: rgb(255, 41, 41);
+        color: #fff;
+        font-size: 0.9em;
+        font-weight: bold;
+        }
+        
+    .button3 {
+        background-color: rgb(48, 255, 79);
+        color: #fff;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+}

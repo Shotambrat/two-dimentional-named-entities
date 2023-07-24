@@ -1,0 +1,21 @@
+{
+  "name": "tdne_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "'FaizHak' 'dudumikah@gmail.com'",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
